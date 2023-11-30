@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/birthday/static/css/main.39a44431.css",
+    "main.js": "/birthday/static/js/main.f913734d.js",
+    "static/js/787.8943f4e3.chunk.js": "/birthday/static/js/787.8943f4e3.chunk.js",
+    "static/media/photo_2023-11-30_15-22-39.jpg": "/birthday/static/media/photo_2023-11-30_15-22-39.bff12a80323bc0733efa.jpg",
+    "static/media/photo_2023-02-16_21-06-07.jpg": "/birthday/static/media/photo_2023-02-16_21-06-07.437a04a2f98352574f48.jpg",
+    "static/media/photo_2023-11-30_15-01-01.jpg": "/birthday/static/media/photo_2023-11-30_15-01-01.eb0bf9246dbee5c83674.jpg",
+    "static/media/1669919679_2-kartinkin-net-p-fon-serdechki-estetika-oboi-2.png": "/birthday/static/media/1669919679_2-kartinkin-net-p-fon-serdechki-estetika-oboi-2.0008e2f377ed8ed8baef.png",
+    "static/media/photo_2023-11-30_15-22-44.jpg": "/birthday/static/media/photo_2023-11-30_15-22-44.d0fab16150e2b9582daa.jpg",
+    "static/media/photo_2023-11-30_15-22-47.jpg": "/birthday/static/media/photo_2023-11-30_15-22-47.b0fdf3c8446e2db933d0.jpg",
+    "static/media/photo_2023-11-30_16-49-32.jpg": "/birthday/static/media/photo_2023-11-30_16-49-32.cc37fe5e1006970165e3.jpg",
+    "index.html": "/birthday/index.html",
+    "main.39a44431.css.map": "/birthday/static/css/main.39a44431.css.map",
+    "main.f913734d.js.map": "/birthday/static/js/main.f913734d.js.map",
+    "787.8943f4e3.chunk.js.map": "/birthday/static/js/787.8943f4e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39a44431.css",
+    "static/js/main.f913734d.js"
+  ]
+}
