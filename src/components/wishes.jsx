@@ -1,20 +1,16 @@
 import React, {useState} from 'react';
 import style from './wishes.module.css'
-import ElizImage from '../images/photo_2023-02-16_21-06-07.jpg'
-import SeniaPoSkidke from '../images/photo_2023-11-30_15-01-01.jpg'
-import autoCar from '../images/photo_2023-11-30_15-22-39.jpg'
-import Peeta from '../images/photo_2023-11-30_15-22-44.jpg'
-import Coriolan from '../images/photo_2023-11-30_15-22-47.jpg'
-import cat from '../images/photo_2023-11-30_16-49-32.jpg'
+import AlenaImage from '../images/photo_2023-04-13_17-11-18.jpg'
+import popa from '../images/photo_2023-12-01_18-36-42.jpg'
 
 const initialStore = [
     {
         id: 1,
         image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png',
         isActive: false,
-        gift: 'https://otkritochka.net/img/cards_part2/74079-foto-s-dnem-rozhdeniya-liza-prikolnoe.jpg'
+        gift: 'https://katerinka.ru/wp-content/uploads/2022/07/den-rozhdenija-alyona-0038.jpg'
     },
-    {id: 2, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: cat},
+    {id: 2, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: 'https://4584674.ru/wa-data/public/shop/products/65/82/78265/images/304300/304300.970.jpg'},
     {
         id: 3,
         image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png',
@@ -25,22 +21,22 @@ const initialStore = [
         id: 4,
         image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png',
         isActive: false,
-        gift: SeniaPoSkidke
+        gift: "https://ua-news.in.ua/wp-content/uploads/2022/10/pozdravlenie-malchiku-s-dnem-rozhdeniya.jpg"
     },
     {id: 5, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: 'video'},
     {
         id: 6,
         image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png',
         isActive: false,
-        gift: 'https://lubok.club/uploads/posts/2023-10/thumbs/1696874395_lubok-club-p-kartinki-kotiki-pozdravlyayut-s-dnem-rozhd-6.jpg'
+        gift: popa
     },
-    {id: 7, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: autoCar},
-    {id: 8, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: Peeta},
+    {id: 7, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift:'https://xymogen.com.ua/wp-content/uploads/2020/05/michigan-med-l-liver-basics-1-01.jpg'},
+    {id: 8, image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png', isActive: false, gift: 'https://anatomy.help/wp-content/uploads/2022/03/total-shape-ianw4rdvuoo-unsplash-1-scaled.jpg'},
     {
         id: 9,
         image: 'https://pngicon.ru/file/uploads/chernaja-podarochnaja-korobka.png',
         isActive: false,
-        gift: Coriolan
+        gift: 'https://knigogid.ru/storage/books/96e/638a8b9859fa507ddcc74ca6baa95d9c.jpg'
     },
 ]
 const Wishes = () => {
@@ -52,7 +48,7 @@ const Wishes = () => {
     }
     return (
         <div className={style.backGround}>
-            <div className={style.eliz}><img src={ElizImage} alt="eliz"/></div>
+            <div className={style.eliz}><img src={AlenaImage} alt="eliz"/></div>
             {store.map((gift) => <div className={style.giftBlock} key={gift.id}><img
                 src={gift.isActive ? gift.gift : gift.image} alt="gift"/>
                 <button onClick={() => openGift(gift)} disabled={gift.isActive}>Відкрити</button>
